@@ -1,0 +1,40 @@
+@import url(app.css);
+
+footer {
+  background-color: var(--light-text-color);
+}
+
+.footer {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.footer h3 {
+  color: var(--light-blue);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  background-color: var(--bold-text-color);
+  color: var(--light-blue);
+  padding: 0.3rem 0;
+}
+
+.footer-bottom a {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 550px) {
+  .social ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
